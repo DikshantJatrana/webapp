@@ -1,0 +1,114 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+html,body {
+height:100%;
+width:100%;
+color: white;
+}
+.container{
+    height: 90vh;
+    width: 100vw;
+}
+#head{
+    position: absolute;
+    height: 90vh;
+    width: 100vw;
+    background-image: url(images/logo.jpeg);
+    background-size: cover;
+    box-shadow: inset 1vh 1vw 10vh 9vw #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#nav{
+    display: flex;
+    height: 3rem;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1.35rem;
+}
+
+.logo{
+    height: 2.5rem;
+}
+#but{
+    display: flex;
+    align-items: center;
+}
+#sel1{
+    height: 2.5rem;
+    width: 12.5rem;
+    border: 0.1rem  solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sel2{
+    height: 89.5%;
+    width: 97.2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(255,255,255,0.1);
+    border: 0.05rem  solid white;
+    border-radius: 0.74rem;
+}
+#sel1:hover{
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+#sel{
+    height: 2rem;
+    width: 8rem;
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin-left: 0.34rem;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 525;
+    text-align: left;
+}
+#sign{
+    height: 2rem;
+    width: 5.55rem;
+    color: white;
+    background-color: #c11119;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 525;
+    text-align: center;
+    margin-left: 0.85rem;
+}
+#sign,#sel,#sel2,#lang:hover{
+    cursor: pointer;
+}
+#cont{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+#link{
+    height: 3.5rem;
+    width: 22.76rem;
+    background-color: #c11119;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:26%;
+}
+#link a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.35rem;
+    font-weight: 600;
+}
